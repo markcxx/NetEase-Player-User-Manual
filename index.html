@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="KEYWords" contect="NetEasePlayer,NetEasePlayer使用手册,音乐播放器,">
+  <meta name="description" content="NetEasePlayer使用手册">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>NetEasePlayer使用指南</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css">
+</head>
+<body>
+  <nav>
+    <a href="#/">首页</a>
+    <a href="#/">语言</a>
+  </nav>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      name: 'NetEasePlayer使用手册',
+      repo: 'https://github.com/markcxx/NetEase-Player-release',
+      loadNavbar: true,
+      coverpage: true,
+      count:{
+          countable:true,
+          fontsize:'0.9em',
+          color:'rgb(90,90,90)',
+          language:'chinese'
+        },
+      // logo: '/icon.svg',
+      // onlyCover: true,
+      // loadSidebar: true,
+      
+            search: {
+                maxAge: 86400000, // 搜索缓存过期时间，单位为毫秒，默认为一天
+                placeholder: '搜索', // 搜索框占位符
+                noData: '未找到结果', // 无搜索结果时的提示
+                depth: 4, // 搜索标题的最大层级
+                hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+            }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+</body>
+</html>
