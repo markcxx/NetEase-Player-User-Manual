@@ -12,4 +12,4 @@
 [GitHub](https://github.com/markcxx/NetEase-Player-release/)
 [Get Started](#NetEasePlayer使用手册)
 
-![color](#f0f0f0)
+![color](#FFDCCC)
