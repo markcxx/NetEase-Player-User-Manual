@@ -1,4 +1,30 @@
+<p align="center">
+  <img width="15%" align="center" src="./icon.png" alt="logo">
+</p>
+  <h1 align="center">
+  NetEase Player 音乐
+</h1>
+<p align="center">
+  一个基于 PyQt5 的跨平台音乐播放器
+</p>
+
+<p align="center">
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/Python-3.8.6-blue.svg?color=00B16A" alt="Python 3.8.6"/>
+  </a>
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/PyQt-5.15.2-blue?color=00B16A" alt="PyQt 5.15.2"/>
+  </a>
+
+  <a style="text-decoration:none">
+    <img src="https://img.shields.io/badge/Platform-Win32%20|%20Linux%20|%20macOS-blue?color=00B16A" alt="Platform Win32 | Linux | macOS"/>
+  </a>
+</p>
+
 # NetEasePlayer使用手册
+
 
 ## 版本信息
 
