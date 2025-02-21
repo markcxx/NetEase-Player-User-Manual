@@ -60,7 +60,7 @@
 /* 开关容器，默认背景为亮色 */
 .toggle-switch {
   position: absolute;
-  right: 50px;
+  right: 20px;
   top: 0px;
   width: 60px;
   height: 30px;
@@ -74,7 +74,7 @@
 }
 .toggle-switch-text {
   position: absolute;
-  right: 120px;
+  right: 90px;
   top: 6px;
   margin-left: 8px;
   font-size: 16px;
