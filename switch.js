@@ -51,7 +51,6 @@
     }
   }
 
-  // 定义开关样式，和原来 var css 格式一致
   var css = `
 :root {
   --dark-icon-size: 60px;
