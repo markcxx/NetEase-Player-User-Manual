@@ -10,6 +10,7 @@
 
 <p align="center">
 
+<p align="center">
   <a style="text-decoration:none">
     <img src="https://img.shields.io/badge/python-3.11-brightgreen?color=FFB200" alt="Python 3.8.6"/>
   </a>
@@ -29,22 +30,22 @@
 
 ## Version Information
 
-- **Software Name**: NetEase Player  
-- **Version Number**: 1.0.3  
-- **Release Date**: February 20, 2025  
+- **Software Name**: NetEase Player
+- **Version**: 1.0.4
+- **Release Date**: March 11, 2025
 
 ------
 
-## Software Introduction
+## Software Overview
 
-!> NetEase Player is a multifunctional music playback software developed with PyQt. It currently supports song search, search suggestions, playback of premium music, music/MV downloads, QR code login for NetEase Cloud Music account to access "Favorite Songs" playlist, along with scrolling lyrics, desktop lyrics, playlist management, etc. Designed to provide convenient and personalized music experience.
+NetEase Player is an audio player based on PyQt5, inspired by the UI design of Microsoft's Groove Music. It aims to provide a seamless music experience by leveraging database information to offer free access to select tracks. The software is continuously updated—stay tuned for new releases 😁😁😁
 
 ------
 
 ## System Requirements
 
-- **Operating System**: Windows 10 or later  
-- **Hardware Requirements**: Minimum 1.6 GHz processor, 2GB RAM, and 300MB available disk space for installation.  
+- **Operating System**: Windows 10 or later.
+- **Hardware Requirements**: Minimum 1.6 GHz processor, 2GB RAM, and 470MB of available disk space for installation.
 
 ------
 
@@ -52,17 +53,18 @@
 
 ### Installation Steps
 
-1. Visit the [Official Website](https://github.com/markcxx/NetEase-Player-release) or [Download Page](https://github.com/markcxx/NetEase-Player-release/releases/tag/NetEasePlayer-v1.0.2) to download the latest installer.  
-2. After downloading, double-click the installer (`NetEase.Player-v1.0.3.exe`).  
-3. Follow the installation wizard instructions.  
-4. After installation completes, `DO NOT check the "Run Software" option`.  
+1. Visit the [official website](https://github.com/markcxx/NetEase-Player-release) or [download page](https://github.com/markcxx/NetEase-Player-release/releases/tag/NetEasePlayer-v1.0.4) to download the latest installer.
+2. After downloading, double-click the installer (`NetEase.Player-v1.0.4.exe`).
+3. Follow the installation wizard to complete setup.
 
-### Launching Software
+### Launching the Software
 
-- Find the desktop shortcut and `Run as Administrator`.  
-- Or launch through Start Menu → "NetEase Player".  
+- ~~After installation, locate the desktop shortcut and run it as administrator.~~
+- Alternatively, find "NetEase Player" in the Start menu and launch it.
 
-**Note**: To ensure proper operation, we recommend `running both installer and software as Administrator`.  
+**Note**: ~~To ensure proper functionality, it is recommended to run both the installer and the software as administrator.~~
+
+        Version 1.0.4 has fixed the requirement for administrator privileges.
 
 ------
 
@@ -70,182 +72,212 @@
 
 ### 1. Search Page
 
-- **Search Music**:  
-  - Default landing page shows search bar. Enter song title or artist name.  
-  - Real-time `search suggestions` will appear as you type. Click suggestions for quick results.  
-  - Search results display song name, artist, album, duration, etc.  
+- **Search for Music**:
+  - By default, NetEase Player opens to the search page. Enter a song title or artist name.
+  - As you type, `search suggestions` will appear. Click a suggestion to quickly find your target track.
+  - Search results will display a list with song titles, artists, albums, durations, and more.
 
-![](https://s21.ax1x.com/2025/02/20/pEQeGJf.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQeGJf.png)
 
-- **Play Music**:  
-  - In search results: `Double-click`/`Right-click`/`Click play button` to play.  
-  - Right-click menu options: "Play", "Download", etc.  
-  - Supported controls: Play/Pause, Previous/Next, Playback Modes (Shuffle/List Loop/Sequential), Volume, Desktop Lyrics, etc.  
+- **Play Music**:
+  - In the search results, double-click, right-click, or click the play button to start playback.
+  - Right-click a song for additional options like "Play," "Download," etc.
+  - Current features include play/pause, previous/next track, playback modes (shuffle, loop, sequential), volume control, and desktop lyrics.
 
-![](https://s21.ax1x.com/2025/02/20/pEQetSS.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQetSS.png)
 
-![](https://s21.ax1x.com/2025/02/20/pEQeaLj.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQeaLj.png)
 
 ### 2. Login Page
 
-- **QR Code Login**:  
-  - Click "Favorite Songs" in left navigation bar.  
-  - Scan displayed QR code with NetEase Cloud Music app.  
+- **QR Code Login**:
+  - Click "My Favorite Music" in the left navigation bar.
+  - Scan the displayed QR code using the NetEase Cloud Music mobile app.
 
-![](https://s21.ax1x.com/2025/02/20/pEQewes.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQewes.png)
 
-- After login, software automatically fetches your "Favorite Songs" playlist (including premium tracks).  
+- After successful login, NetEase Player will automatically fetch your favorite music list, bypassing paywall restrictions for direct playback.
 
-![](https://s21.ax1x.com/2025/02/20/pEQe0wn.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQe0wn.png)
 
-!<Important: `Ensure your NetEase Cloud playlist is NOT set to private`, otherwise music data cannot be retrieved.  
+!> **Important**: Ensure your NetEase Cloud Music account does not set playlists to **private**, otherwise the software cannot retrieve your music data.
 
-!<Note: Initial data caching may take time depending on playlist size. Wait until all song thumbnails load before closing software.  
+!> **Important**: Initial data fetching requires caching. Wait until all song thumbnails load before closing the app. Caching time depends on the number of favorited tracks.
 
 ### 3. Scrolling Lyrics
 
-- Click album art or song title (hover to highlight) to open scrolling lyrics.  
-- Click "×" on top-left to close.  
+- Click the album art or song title (highlighted on hover) to open scrolling lyrics.
+- Click the collapse button in the top-left corner to close the lyrics window.
 
-![](https://s21.ax1x.com/2025/02/20/pEQeyWT.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQeyWT.png)
 
 ### 4. Desktop Lyrics
 
-- Click lyrics button to enable desktop lyrics.  
-- Features: Reposition lyrics panel, Play/Pause, Previous/Next, Font scaling, Lock position, etc.  
+- Click the lyrics button to enable desktop lyrics.
+- Adjust the lyrics position, pause/resume playback, skip tracks, adjust font size, lock lyrics position, and more.
 
-![](https://s21.ax1x.com/2025/02/20/pEQecSU.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQecSU.png)
 
-![](https://s21.ax1x.com/2025/02/20/pEQeglF.png)  
+![](https://s21.ax1x.com/2025/02/20/pEQeglF.png)
 
 ### 5. Settings Page
 
-- **Access Settings**:  
-  - Click "Settings" in left navigation bar.  
+![](https://s21.ax1x.com/2025/02/20/pEQeblD.png)
 
-- **Startup & Exit**  
-  - **Auto-start**: Enable/Disable launch at system startup.  
-  - **Minimize to Tray**: Enable/Disable tray hiding when closing.  
+- **Access Settings**:
+  - Click the "Settings" button in the left navigation bar.
 
-------
-
-- **Personalization**  
-  - **Theme Color**: Customize interface color scheme.  
-  - **Lyrics Ambience**: Set lyrics background ambiance color.  
-  - **Lyrics Color**: Customize lyrics text color.  
-  - **UI Scaling**: Adjust interface scaling (100%/125%/150%) or "Follow System".  
+- **Startup & Shutdown**
+  - **Launch at Startup**: Toggle whether the app starts automatically on system boot.
+  - **Minimize to Tray**: Toggle whether the app hides in the system tray when closed. *(Functionality not yet implemented)*
 
 ------
 
-- **Desktop Lyrics**  
-  - **Font**: Select desktop lyrics font.  
-  - **Background Color**: Set lyrics panel background.  
-  - **Highlight Color**: Set highlighted lyrics color.  
-  - **Outline Color**: Customize text outline color.  
-  - **Outline Size**: Adjust outline thickness (0-20).  
-  - **Alignment**: Set text alignment (Center/Left/Right).  
+- **Personalization**
+  - **Theme Color**: Customize the app's theme color.
+  - **Lyrics Ambience Color**: Customize the background ambiance color for lyrics.
+  - **Lyrics Color Scheme**: Customize lyrics text color.
+  - **UI Scaling**: Adjust interface scaling (e.g., 100%, 125%, 150%) or "Follow System."
 
 ------
 
-- **Download & Cache**  
-  - **Music Directory**: Set default download path.  
-  - **Cache Directory**: Configure cache location.  
+- **Desktop Lyrics**
+  - **Font**: Choose a font for desktop lyrics.
+  - **Background Color**: Set the background color.
+  - **Highlight Color**: Set the highlight color.
+  - **Outline Color**: Set the outline color.
+  - **Outline Size**: Adjust outline thickness (0–20).
+  - **Alignment**: Set lyrics alignment (center, left, right).
 
 ------
 
-- **Updates**  
-  - **Check Updates**: Manually check for new versions.  
+- **Download & Cache**
+  - **Download Directory**: Set the path for downloaded music.
+  - **Cache Directory**: Set the path for cached files.
 
 ------
 
-- **About**  
-  - **Help**: Open official repository page.  
-  - **Feedback**: Submit issues/suggestions.  
-  - **About Developer**: View author information.  
+- **Software Updates**
+  - **Check for Updates**: Manually check for new versions.
+
+------
+
+- **About**
+  - **Help**: Open the official repository.
+  - **Submit Feedback**: Report issues or suggestions.
+  - **About the Author**: View developer information.
+
+------
+
+## Release Notes
+
+#### v1.0.4
+
+#### New Features
+- Added support for local music playback.
+- Removed administrator privileges requirement.
+- Added metadata writing for downloaded audio.
+- Local music now reads metadata upon import.
+
+#### v1.0.3
+- **Desktop Lyrics**: Floating lyrics display for an immersive experience.
+- **Personalization**:
+  - Customizable theme colors.
+  - Lyrics ambiance colors, scrolling lyrics color schemes.
+  - UI scaling adjustments for different screen resolutions.
+  - Desktop lyrics customization: background/highlight/outline colors, outline size.
+- **Music Download**:
+  - Right-click to download tracks.
+  - Customizable download path in settings.
+- **Cache Management**: Optimized cache handling for faster loading.
+- **User Guide**: Added documentation for easier onboarding.
+- **Optimizations**:
+  - Improved caching mechanism.
+  - Enhanced UI/UX design.
+
+#### v1.0.2
+- Fixed known bugs.
+- Added MV playback support.
+- Optimized caching mechanism.
+
+#### v1.0.1
+- Initial release.
+- Features:
+  - QR code login for NetEase Cloud Music.
+  - Music search engine.
+  - Paid/free music playback.
+  - Lyrics display.
 
 ------
 
 ## FAQ
 
-### 1. Why can't I play certain songs?  
-- **Possible Reasons**:  
-  - High server request frequency.  
-  - Unstable network connection.  
-- **Solutions**:  
-  - Retry later.  
-  - Check network connectivity.  
+### 1. Why can't I play certain songs?
+- **Possible Causes**:
+  - High server request frequency.
+  - Unstable network connection.
+- **Solutions**:
+  - Retry later.
+  - Check your network connection.
 
-### 2. Why can't I download music/MV?  
-- **Possible Reasons**:  
-  - Network issues.  
-  - Invalid download path (full disk/wrong directory).  
-- **Solutions**:  
-  - Check network connection.  
-  - Verify download path and disk space.  
+### 2. Why can't I download music or MV?
+- **Possible Causes**:
+  - Network issues.
+  - Invalid download path (e.g., insufficient disk space).
+- **Solutions**:
+  - Check network stability.
+  - Verify download path and disk space.
 
-### 3. How to update?  
-- Visit [Official Website](https://github.com/markcxx/NetEase-Player-release) or [Download Page](https://github.com/markcxx/NetEase-Player-release/releases/tag/NetEasePlayer-v1.0.2).  
-- Software has auto-update detection.  
-- Close software before installing update.  
-- Run installer to complete update.  
+### 3. How to update the software?
+- Visit the [official website](https://github.com/markcxx/NetEase-Player-release) or [download page](https://github.com/markcxx/NetEase-Player-release/releases/tag/NetEasePlayer-v1.0.2).
+- NetEase Player supports automatic update checks.
+- Close the app before installing the update.
+- Run the installer and follow prompts.
 
-# Legal & Terms
+# Legal & Terms of Use
 
 ## Copyright Notice
 
-### Software Information  
-- **Name**: NetEase Player  
-- **Version**: 1.0.3  
-- **Developer**: Mark  
-- **Copyright**: © 2025 Mark. All Rights Reserved.  
+### Software Information
+- **Software Name**: NetEase Player
+- **Version**: 1.0.4
+- **Developer**: Mark
+- **Copyright**: © 2025 Mark. All Rights Reserved.
 
-### Software Copyright  
-1. **Definition**:  
-   NetEase Player ("the Software") is a music player developed by Mark. The software and all related materials are Mark's exclusive property.  
-2. **Ownership**:  
-   All components (UI, icons, code, documentation) are protected by international copyright laws. Unauthorized reproduction/modification is prohibited.  
-3. **Trademarks**:  
-   "NetEase Player" name/logo are Mark's trademarks. Unauthorized use is forbidden.  
-4. **Third-party Content**:  
-   Any third-party content follows its original license agreements.  
+### Software Copyright
+1. **Definition**: NetEase Player ("the Software") is developed by Mark to provide music playback services. The Software, including documentation, icons, UI design, source code (if applicable), and related files, is the exclusive property of Mark, protected by international copyright laws.
+2. **Copyright Statement**: Unauthorized reproduction, distribution, modification, reverse engineering, or other illegal uses are strictly prohibited.
+3. **Trademarks**: "NetEase Player" and its logos are trademarks of Mark. Unauthorized use is prohibited.
+4. **Third-Party Content**: Third-party components are governed by their respective licenses.
 
 ------
 
-## Terms of Use  
+## Terms of Use
 
-### License  
-1. **Grant**:  
-   Non-exclusive, non-transferable license for personal use only.  
-2. **Prohibitions**:  
-   - Reverse engineering/decryption prohibited.  
-   - No commercial use/distribution.  
-   - No illegal activities.  
+### License Grant
+1. **Scope**: Mark grants you a non-exclusive, non-transferable license to use the Software for personal, non-commercial purposes.
+2. **Prohibited Actions**:
+   - Reverse engineering, decompiling, or modifying the Software.
+   - Commercial use, redistribution, or illegal activities.
 
-### User Responsibilities  
-1. **Legal Compliance**:  
-   Users must comply with local laws and respect third-party rights.  
-2. **Data Security**:  
-   Users are responsible for data backup and security.  
-3. **Updates**:  
-   Users should install updates promptly.  
+### User Responsibilities
+1. **Compliance**: Use the Software lawfully and respect third-party rights.
+2. **Data Security**: Backup your data; Mark is not liable for data loss.
+3. **Updates**: Install updates promptly for optimal performance.
 
-### Disclaimer  
-1. **No Warranty**:  
-   Software provided "AS IS" without guarantees.  
-2. **Liability**:  
-   Mark not liable for any damages from software use.  
-3. **Third-party Services**:  
-   Third-party services are users' own responsibility.  
+### Disclaimer
+1. **Risk**: Use the Software at your own risk. Mark does not guarantee uninterrupted or error-free operation.
+2. **Liability**: Mark is not liable for direct, indirect, or consequential damages.
+3. **Third-Party Services**: Third-party services are used at your discretion.
 
-### Termination  
-1. **License Termination**:  
-   Mark may terminate license for violations.  
-2. **Uninstallation**:  
-   Remove all copies when discontinuing use.  
+### Termination
+1. **License Termination**: Violating these terms grants Mark the right to terminate your license.
+2. **Uninstallation**: Uninstall via Control Panel or system tools if you cease use.
 
-### Governing Law  
-Disputes governed by Chinese law, resolved in Mark's local courts.  
+### Governing Law & Dispute Resolution
+1. **Jurisdiction**: Governed by the laws of the People’s Republic of China.
+2. **Disputes**: Resolve disputes through negotiation or litigation in Mark’s local jurisdiction.
 
-### Contact  
-- **Official Site**: https://github.com/markcxx/NetEase-Player-release  
-[file content end]
+### Contact
+- **Website**: https://github.com/markcxx/NetEase-Player-release
+- **Email**: 2811016860@qq.com
