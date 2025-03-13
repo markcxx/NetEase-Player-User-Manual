@@ -2,7 +2,7 @@
 
 ![logo](/icon.png)
 
-# NetEase Player播放器使用文档 <small>1.0.3</small>
+# NetEase Player播放器使用文档 <small>1.0.4</small>
 
 > 一款基于Fluent的简洁音乐播放器。
 
